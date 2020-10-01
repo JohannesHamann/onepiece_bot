@@ -22,7 +22,7 @@ def scraping_old( update, context):
     # scrapes the manga website, filters, saves latest manga and sends out the wanted
     # text messages via telegram
     while True:
-        text_file_name = "onepiece_chapter.txt" 
+        text_file_name = "..\onepiece_chapter.txt" 
         # make the get request
         website = requests.get("https://w16.read-onepiece.com/")
         # extract the html code and convert it from unicode to str
